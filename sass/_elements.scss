@@ -53,9 +53,12 @@ img {
 }
 header {
     margin-bottom: 70px;
-    background-image: url("../pics/car-headlight.png");
+    background-image: url("pics/road.jpg");
     background-repeat: no-repeat;
-    height: 277px;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size:cover;
+    padding: 10%;
     img {
         width: 150px;
         height: 150px;
@@ -87,9 +90,17 @@ main section {
     :last-child h2 {
         margin-bottom: 70px;
     }
-    
+
 }
 section.row3 img {
-  width: 40%;
-  margin-right: 70px;
+  width: 50%;
+  min-width: 300px;
+}
+footer {
+  margin-top: 100px;
+  background-color: $blue;
+  padding: 10% 10%;
+}
+footer h2 {
+  color: white;
 }

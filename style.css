@@ -42,6 +42,17 @@
 .row2 p {
   min-width: 0px; }
 
+.row2 .row-wrap {
+  width: 100%;
+  max-width: 800px; }
+
+.container {
+  padding: 5%; }
+
+.within li {
+  list-style-position: outside;
+  padding: 10px 0px 10px 0px; }
+
 body {
   font-size: 62.5%;
   font-family: 'Overpass', sans-serif;
@@ -98,9 +109,12 @@ img {
 
 header {
   margin-bottom: 70px;
-  background-image: url("../pics/car-headlight.png");
+  background-image: url("pics/road.jpg");
   background-repeat: no-repeat;
-  height: 277px; }
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+  padding: 10%; }
   header img {
     width: 150px;
     height: 150px; }
@@ -129,7 +143,15 @@ main section {
     margin-bottom: 70px; }
 
 section.row3 img {
-  width: 40%;
-  margin-right: 70px; }
+  width: 50%;
+  min-width: 300px; }
+
+footer {
+  margin-top: 100px;
+  background-color: #5F99E6;
+  padding: 10% 10%; }
+
+footer h2 {
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */
