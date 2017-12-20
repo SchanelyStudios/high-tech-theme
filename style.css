@@ -47,11 +47,14 @@
   max-width: 800px; }
 
 .container {
-  padding: 5%; }
+  padding: 4%; }
 
 .within li {
   list-style-position: outside;
   padding: 10px 0px 10px 0px; }
+
+html {
+  margin-top: 0px; }
 
 body {
   font-size: 62.5%;
@@ -114,7 +117,8 @@ header {
   background-attachment: fixed;
   background-position: 50% 50%;
   background-size: cover;
-  padding: 10%; }
+  padding: 10%;
+  line-height: 0; }
   header img {
     width: 150px;
     height: 150px; }
@@ -147,11 +151,13 @@ section.row3 img {
   min-width: 300px; }
 
 footer {
+  display: flex;
+  flex-flow: column;
   margin-top: 100px;
   background-color: #5F99E6;
   padding: 10% 10%; }
-
-footer h2 {
-  color: white; }
+  footer h2 {
+    padding: 10%;
+    color: white; }
 
 /*# sourceMappingURL=style.css.map */
